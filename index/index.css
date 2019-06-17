@@ -53,6 +53,9 @@ body {
     background:#ffd43b;
     margin-left:-5px;
 }
+.m0 {
+    margin: 0 !important;
+}
 #menu {
     width:100%;
     text-align:center;
@@ -191,7 +194,8 @@ body {
     cursor:pointer;
 }
 .container section {
-    margin:8vh 0px;
+    margin:8vh auto;
+    max-width: 800px;
 }
 #used div{
     font-size:14px !important;
@@ -212,7 +216,13 @@ body {
     text-decoration:underline;
 }
 .container p {
-    font-size:21px;
+    font-size:1.3rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 700px;
+    color: #f59f00;
+    border-radius: 20px; 
+    background: white;
 }
 .btn_one {
     font-size:18px;
