@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./img/0002.jpg") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/0002.jpg") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -185,6 +185,18 @@ body {
     overflow-y:auto;
     display:none;
 }
+.dano {
+    background-image:linear-gradient(0deg,rgba(252, 196, 25, 0.3),rgba(252, 196, 25, 0.3)), url(https://mxsorovxjmdc896281.cdn.ntruss.com/2019-05-09/1814e8608e8a617b6dcb3a56c9cd5515a1c7f2c9);
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.about {
+    background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/0001.jpg);
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
 .container div {
     font-size:25px;
     margin:20px 0px;
@@ -220,9 +232,12 @@ body {
     margin: 1rem auto;
     padding: 1rem;
     max-width: 700px;
-    color: #f59f00;
+    color: black;
     border-radius: 20px; 
     background: white;
+}
+.container p img {
+    width: 100%;
 }
 .btn_one {
     font-size:18px;
@@ -349,6 +364,15 @@ body {
     #middle {
         width:90vw;
         padding:0px 5vw;
+    }
+    #middle h1 {
+        font-size: 3rem;
+    }
+    #middle h2 {
+        font-size: 4vw;
+    }
+    .container p {
+        font-size: 4vw;
     }
     #middle table {
         width:80%;

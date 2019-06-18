@@ -12,8 +12,8 @@
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/slide.css">
 </head>
 
 <body>
@@ -54,7 +54,7 @@
                 </tr>
             </table>
     </div>
-    <div id="work_container" class="container">
+    <div id="work_container" class="container dano">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
         <h1>dano.</h1>
         <section>
@@ -75,23 +75,41 @@
             <button class="btn_two">button 2</button>
         </section>
     </div>
-    <div id="about_container" class="container">
+    <div id="about_container" class="container about">
         <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
         <h1>about.</h1>
-        <section>
+        <section id="transcroller-body" class="aos-all">
             <h2>'나'라는 사람은?</h2>
             <p>
                 기계공학과 소프트웨어공학을 복수전공한 완전 공돌이 중에서도 상 공돌이
+                <img src="./img/0004.jpg" alt="">
             </p>
+            <div id="used">
+                <div><i class="fas fa-hashtag"></i>&nbsp;사실 둘 다 좋아함</div>
+                <div><i class="fas fa-hashtag"></i>&nbsp;감수성 부족</div>
+            </div>
             <p>
                 아침형을 넘어선 새벽형 인간, 밤새지말고 차라리 일찍 일어나서 하자 ;)
+                <img src="./img/0005.jpg" alt="">
             </p>
+            <div id="used">
+                <div><i class="fas fa-hashtag"></i>&nbsp;낮, 밤이 거꾸로 바뀌는 중</div>
+                <div><i class="fas fa-hashtag"></i>&nbsp;야근 가능</div>
+            </div>
             <p>
                 하나에 미친듯이 몰입하는 타입, 멀티태스킹이 잘 안 됨ㅠ
+                <img src="./img/0006.jpg" alt="">
             </p>
+            <div id="used">
+                <div><i class="fas fa-hashtag"></i>&nbsp;흔들어서 알림을 주세요 :D</div>
+            </div>
             <p>
                 태생이 게을러서... 끊임없이 일을 해야함, 책임감이 강함 :)
+                <img src="./img/0007.gif" alt="">
             </p>
+            <div id="used">
+                <div><i class="fas fa-hashtag"></i>&nbsp;끊임없이 일을 주세요!</div>
+            </div>
             <h2>내가 좋아하는 것?</h2>
             <div class="CSSgal m0">
                 <!-- Don't wrap targets in parent -->
@@ -102,16 +120,16 @@
 
                 <div class="slider">
                     <div class="item">
-                        <img src="./img/0002.jpg" alt="">
+                        <img src="./img/s001.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="./img/0003.jpg" alt="">
+                        <img src="./img/s002.jpg" alt="">
                     </div>
-                    <div class="item" style="background:#e95;">
-                        <h2>Slide 3</h2>
+                    <div class="item">
+                        <img src="./img/s003.jpg" alt="">
                     </div>
-                    <div class="item" style="background:#e59;">
-                        <h2>Slide 4</h2>
+                    <div class="item">
+                        <img src="./img/s004.jpg" alt="">
                     </div>
                 </div>
 
@@ -131,7 +149,18 @@
             </div>
             <h2>내가 잘하는 것(?) 잘하고 싶은것?</h2>
             <p>
-                i do eveything ;)
+                당연히 개발ㅠ 백엔드뿐만 아니라 프론트엔드도 재밌음
+            </p>
+            <p>
+                조금씩 투자에 관심을 갖는 중ㅎㅎ
+                <img src="./img/0008.jpg" alt="">
+            </p>
+            <p>
+                디자인 감각을 가지고 싶다... UX나 UI, 색감?
+            </p>
+            <p>
+                쓸모없지만 재밌는걸 잘 만듬 :D
+                <img src="./img/0009.jpg" alt="">
             </p>
         </section>
     </div>
@@ -151,9 +180,9 @@
     <div id="footer">
         95% 수제작 입니다ㅠ<br> <a href="https://github.com/zezaeoh/introduce-myself">view source</a>
     </div>
-    <script src="index.js" type="text/javascript"></script>
-    <script src="particles.js"></script>
-    <script src="app.js"></script>
+    <script src="./js/index.js" type="text/javascript"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
